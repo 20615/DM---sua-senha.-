@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DM - Sua Senha Vaquejada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf7f2;
+      color: #333;
+      padding: 20px;
+      margin: 0;
+    }
+
+    header {
+      background-color: #3e2e1f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .countdown {
+      font-size: 24px;
+      color: #d9534f;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #3e2e1f;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .pix {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #ffefd5;
+      border-left: 5px solid #ff8800;
+    }
+
+    .alerta {
+      color: red;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .contato {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .painel {
+      margin-top: 40px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">DM Senhas - Vaquejada</div>
+    <h1>Inscreva-se para a Vaquejada</h1>
+  </header>
+
+  <div class="countdown" id="contador">Faltam: ...</div>
+
+  <form>
+    <label>Nome do Vaqueiro:</label>
+    <input type="text" placeholder="Digite seu nome completo" required/>
+
+    <label>Telefone para contato:</label>
+    <input type="tel" placeholder="(00) 00000-0000" required/>
+
+    <label>Modalidade:</label>
+    <select required>
+      <option value="">Selecione...</option>
+      <option>Amador</option>
+      <option>Aspirante</option>
+      <option>Profissional</option>
+      <option>Derby</option>
+    </select>
+
+    <label>Nome do Cavalo:</label>
+    <input type="text" placeholder="Ex: Ventania" required/>
