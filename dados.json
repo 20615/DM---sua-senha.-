@@ -1,0 +1,34 @@
+{
+  "evento": {
+    "nome": "Vaquejada Parque Rancho Vitória",
+    "data": "2025-08-15",
+    "local": "Montes Claros - MG",
+    "chave_pix": "000.000.000-00",
+    "contato": {
+      "nome": "David Mota",
+      "whatsapp": "(38) 99908-8457"
+    }
+  },
+  "modalidades": [
+    {
+      "nome": "Amador",
+      "premiacao": "R$ 5.000,00",
+      "valor_inscricao": "R$ 250,00"
+    },
+    {
+      "nome": "Aspirante",
+      "premiacao": "R$ 3.000,00",
+      "valor_inscricao": "R$ 200,00"
+    },
+    {
+      "nome": "Profissional",
+      "premiacao": "R$ 8.000,00",
+      "valor_inscricao": "R$ 300,00"
+    },
+    {
+      "nome": "Derby",
+      "premiacao": "R$ 2.000,00",
+      "valor_inscricao": "R$ 180,00"
+    }
+  ]
+}
