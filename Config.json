@@ -1,0 +1,9 @@
+{
+  "competicoes": [
+    {"id": "praca", "nome": "Pracinha", "valor": 50},
+    {"id": "profissional", "nome": "Profissional", "valor": 100},
+    {"id": "mirim", "nome": "Mirim", "valor": 30}
+  ],
+  "dataEvento": "2025-08-15T08:00:00",
+  "pixChave": "99999-8888@pix.com"
+}
